@@ -3,6 +3,8 @@ import { stubLog } from './lib/log-utils';
 import { fakeTime } from './lib/time-utils';
 import { withMocks, verifyMocks } from './lib/mock-utils';
 import { withSandbox, verifySandbox } from './lib/sandox-utils';
+import './lib/unhandled-rejection';
+
 
 export { stubEnv, stubLog, fakeTime, withSandbox, verifySandbox, withMocks,
          verifyMocks };
